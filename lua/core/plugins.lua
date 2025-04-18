@@ -22,5 +22,13 @@ require("lazy").setup({
   "rafamadriz/friendly-snippets",
   "nvim-telescope/telescope.nvim",
   "nvim-lua/plenary.nvim",
+  "lewis6991/gitsigns.nvim",
+  {
+    "tpope/vim-fugitive",
+    cmd = { "Git", "G" },
+    keys = {
+      { "<leader>gg", "<cmd>Git<cr>", desc = "Git status (fugitive)" },
+    },
+  },
 })
 
