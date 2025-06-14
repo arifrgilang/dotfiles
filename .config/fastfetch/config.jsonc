@@ -1,0 +1,40 @@
+{
+    "logo": {
+        "source": "arch",
+        "color": {
+            "1": "31",
+            "2": "31"
+        },
+        "padding": {
+            "right": 1
+        }
+    },
+    "display": {
+        "color": {
+            "keys": "31",
+            "title": "91"
+        },
+        "separator": " ❯ "
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "EVANGELION UNIT-02 ACTIVATED"
+        },
+        {
+            "type": "separator",
+            "string": "━"
+        },
+        "title",
+        "separator",
+        "os",
+        "host", 
+        "cpu",
+        "memory",
+        "terminal",
+        {
+            "type": "custom",
+            "format": "PILOT: ASUKA LANGLEY SORYU"
+        }
+    ]
+}
