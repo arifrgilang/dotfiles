@@ -1,6 +1,6 @@
 vim.opt.rtp:prepend(vim.fn.stdpath("data") .. "/lazy/lazy.nvim")
 require("lazy").setup({
-  "ellisonleao/gruvbox.nvim",
+  -- Remove gruvbox and add custom theme setup
   "nvim-tree/nvim-tree.lua",
   "nvim-tree/nvim-web-devicons",
   "nvim-lualine/lualine.nvim",
@@ -31,4 +31,3 @@ require("lazy").setup({
     },
   },
 })
-
